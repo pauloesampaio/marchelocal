@@ -1,9 +1,11 @@
 import streamlit as st
 from urllib.error import URLError
 import pandas as pd
+from datetime import datetime
 from streamlit.logger import get_logger
-from pymongo.mongo_client import MongoClient
-from pymongo.server_api import ServerApi
+from google.cloud import firestore
+import smtplib
+from email.mime.text import MIMEText
 
 st.set_page_config(layout="wide")
 columns_proportion = [5,40,20,10,5,20]
@@ -16,8 +18,8 @@ quantities = {}
 
 @st.cache_resource
 def init_connection():
-    uri = f'mongodb+srv://{st.secrets["mongo"]["username"]}:{st.secrets["mongo"]["password"]}@{st.secrets["mongo"]["host"]}/?retryWrites=true&w=majority'
-    return MongoClient(uri)
+    client = firestore.Client.from_service_account_info(st.secrets["firebase"])
+    return client
 
 try:
     product_list = get_products()
@@ -47,9 +49,9 @@ try:
     c = st.columns(columns_proportion)
     c[4].markdown("**Total:**")
     c[5].markdown(f"**CHF {total:.2f}**")
+    #if c[1].button(label="Add to cart", type="primary"):
     with st.form("panier"):
-        if c[1].button(label="Add to cart", type="primary"):
-            client = init_connection()
+            db = init_connection()
             with st.container():
                 st.markdown(f"### Total panier")
                 quantities_df = pd.DataFrame(quantities.values(), index=quantities.keys(), columns=["Quantity"])
@@ -57,6 +59,7 @@ try:
                 quantities_df = quantities_df.merge(published_products.set_index("ID")[["Name", "Regular price"]], left_index=True, right_index=True)
                 quantities_df["Total"] = quantities_df["Regular price"] * quantities_df["Quantity"]
                 st.table(quantities_df.reset_index(drop=True))
+                order_dict = quantities_df.to_dict(orient="records")
 
             with st.container():
                 total_panier = quantities_df["Total"].sum()
@@ -72,54 +75,84 @@ try:
                             ''')
 
             with st.container():
+                client_dict = {}
                 st.markdown(f"### Coordonnées du client et livraison")
                 
                 row_1 = st.columns(2)
                 row_1[0].text("Prénom")
-                prenom = row_1[1].text_input(label="Prénom", label_visibility="collapsed")
+                client_dict["first_name"] = row_1[1].text_input(label="Prénom", label_visibility="collapsed")
                 
                 row_2 = st.columns(2)
                 row_2[0].text("Nom")
-                nom = row_2[1].text_input(label="Nom de famille", label_visibility="collapsed")
+                client_dict["last_name"] = row_2[1].text_input(label="Nom de famille", label_visibility="collapsed")
 
                 row_3 = st.columns(2)
                 row_3[0].text("Téléphone")
-                telephone = row_3[1].text_input(label="Téléphone", label_visibility="collapsed")
+                client_dict["telephone"] = row_3[1].text_input(label="Téléphone", label_visibility="collapsed")
 
                 row_4 = st.columns(2)
                 row_4[0].text("E-mail pour confirmer la commande")
-                email = row_4[1].text_input(label="E-mail pour confirmer la commande", label_visibility="collapsed")
+                client_dict["email"] = row_4[1].text_input(label="E-mail pour confirmer la commande", label_visibility="collapsed")
 
                 row_5 = st.columns(2)
                 row_5[0].text("Adresse")
-                adresse = row_5[1].text_input(label="Adresse", label_visibility="collapsed")
+                client_dict["adress"] = row_5[1].text_input(label="Adresse", label_visibility="collapsed")
 
                 row_6 = st.columns(2)
                 row_6[0].text("Ville")
-                ville = row_6[1].text_input(label="Ville", label_visibility="collapsed")
+                client_dict["city"] = row_6[1].text_input(label="Ville", label_visibility="collapsed")
 
                 row_7 = st.columns(2)
                 row_7[0].text("Code postal")
-                code_postal = row_7[1].text_input(label="Code postal", label_visibility="collapsed")
+                client_dict["zip"] = row_7[1].text_input(label="Code postal", label_visibility="collapsed")
 
                 row_8 = st.columns(2)
                 row_8[0].text("Région")
-                region = row_8[1].text("Fribourg")
+                row_8[1].text("Fribourg")
+                client_dict["state"] = "Fribourg"
 
                 row_9 = st.columns(2)
                 row_9[0].text("Pays")
-                pays = row_9[1].text("Suisse")
+                row_9[1].text("Suisse")
+                client_dict["country"] = "Suisse"
 
                 st.markdown(f"### Instruction de livraison")
-                livraison = st.radio(label="livraison",
-                                    options=["En haut de la boîte aux lettres", 
-                                            "A côté de la porte d'entrée (à l'extérieur)",
-                                            "A côté de la porte d'entrée (à l'intérieur)",
-                                            "Sonnez à l'interphone",
-                                            "Autre"])
+                client_dict["delivery_option"] = st.radio(label="livraison",
+                                                            options=["En haut de la boîte aux lettres", 
+                                                                    "A côté de la porte d'entrée (à l'extérieur)",
+                                                                    "A côté de la porte d'entrée (à l'intérieur)",
+                                                                    "Sonnez à l'interphone",
+                                                                    "Autre"])
             submitted = st.form_submit_button("Submit")
+
             if submitted:
-                st.write("OIOI")
+                timestamp = datetime.now()
+                order_document = {"timestamp": timestamp, "order_price": total_panier, "client": client_dict, "order": order_dict}
+                print(order_document)
+                db.collection("orders").add(order_document)
+
+                email_sender = st.secrets["email"]["from"]
+                email_receiver = client_dict["email"]
+                subject = "Your Marche Local order"
+                body = str(order_document)
+                password = st.secrets["email"]["password"]
+
+                try:
+                    msg = MIMEText(body)
+                    msg['From'] = email_sender
+                    msg['To'] = email_receiver
+                    msg['Subject'] = subject
+
+                    server = smtplib.SMTP('smtp.gmail.com', 587)
+                    server.starttls()
+                    server.login(email_sender, password)
+                    server.sendmail(email_sender, email_receiver, msg.as_string())
+                    server.quit()
+
+                    st.success('Order sent successfully! 🚀')
+                except Exception as e:
+                    st.error(f"Error: {e}")
+
 
 except URLError as e:
     st.error(
@@ -129,4 +162,3 @@ except URLError as e:
     """
         % e.reason)
     
-    MongoClient()
