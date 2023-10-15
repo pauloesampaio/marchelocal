@@ -2,7 +2,6 @@ import streamlit as st
 from urllib.error import URLError
 import pandas as pd
 from streamlit.logger import get_logger
-import numpy as np
 
 @st.cache_data
 def get_products():
