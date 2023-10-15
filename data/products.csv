@@ -1,4 +1,78 @@
-code,name,price
-1,bread,1
-2,orange,5
-3,honey,12
+ID,Name,Published,Description,Weight (g),Sale price,Regular price,Categories,Images,Position
+1,Pâte feuilletée maison au beurre de laiterie,1,600 gr en congélation dans sachet isotherme. Prévoir la réception rapidement si la pâte doit être gardée congelée,600,,12,Artisanaux,,0
+2,Pâte feuilletée maison au beurre de laiterie,1,350 gr en congélation dans sachet isotherme. Prévoir la réception rapidement si la pâte doit être gardée congelée,350,,7,Artisanaux,,0
+3,Quiches aux légumes: tartelette,1,Tartelette,,,4,Artisanaux,,0
+4,Quiches aux légumes: taille moyenne 4 portions,1,Taille: moyenne 4 portions,,,14,Artisanaux,,0
+5,Quiches aux légumes: taille grande de 28cm,1,Taille: grande de 28cm,,,25,Artisanaux,,0
+6,Taillé aux greubons : la botte,1,la botte,,,2,Artisanaux,,0
+7,Mini taillé aux greubons,1,mini taillés pour apéros | la botte,,,2,Artisanaux,,0
+8,Bricelets sucrés maison,1,paquet,,,8,Artisanaux,,0
+9,Bricelets salés maison,1,paquet,,,8,Artisanaux,,0
+10,Confiture: tomates vertes,1,"Au gingembre, vanillé, au citron, nature. Choisir la saveur dans les commentaires finaux",,,7,Artisanaux,,0
+11,Confiture: carottes,1,,,,7,Artisanaux,,0
+12,Confiture: courge aux raisin secs,1,,,,7,Artisanaux,,0
+13,Confiture: abricot cardamome,1,,,,7,Artisanaux,,0
+14,Confiture: limes,1,,,,7,Artisanaux,,0
+15,Confiture: 3 agrumes,1,,,,7,Artisanaux,,0
+16,Confiture citron bergamote,1,,,,7,Artisanaux,,0
+17,Confiture: miel de pissenlit,1,,,,7,Artisanaux,,0
+18,Confiture: reine-claude,1,,,,7,Artisanaux,,0
+19,Confiture: gelée de sureau,1,,,,7,Artisanaux,,0
+20,"Sirops maison | Saveurs: Romarin, sauge, aspérule odorante, menthe, fleurs de sureau | 25 cl | Indiquer l'arôme que vous avez choisi dans les commentaires finaux",1,Indiquer l'arôme que vous avez choisi dans les commentaires finaux,,,3.5,Artisanaux,,0
+21,Sirops maison | Saveur: Lavabda | 25 cl,1,25 cl,250,,4,Artisanaux,,0
+22,Ketchup bio maison | 25 cl,1,25 cl,250,,6.5,Artisanaux,,0
+23,"Miel de Morrens:  colza, fleurs et forêt  | Indiquer l'arôme que vous avez choisi dans les commentaires finaux",1,Indiquer l'arôme que vous avez choisi dans les commentaires finaux,,,14,Artisanaux,http://marchelocal.site/wp-content/uploads/2018/06/organic-honey.jpg,0
+24,Jus de pommes bio (Cugy) cubi de 5 litres,1,5 l,,,16,Artisanaux,,0
+25,Tomates Marmandes | 1 kg,1,1kg,1000,,8,Produits Locaux,,0
+26,Tomates roses de Berne | 1 kg,1,1kg,1000,,8,Produits Locaux,,0
+27,Tomates en grappes | 1 kg,1,1kg,1000,,6,Produits Locaux,,0
+28,Pommes de terres fermes | 1 kg,1,1kg,1000,,3,Produits Locaux,,0
+29,Pommes de terres farineuses| 1 kg,1,1kg,1000,,3,Produits Locaux,,0
+30,Toutes sortes de courges |Indiquez le type de courge que vous préférez dans les commentaires finaux | 1kg,1,1kg | Indiquez le type de courge que vous préférez dans les commentaires finaux,1000,,4,Produits Locaux,,0
+31,Courgette | 1kg,1,1kg,1000,,5.5,Produits Locaux,,0
+32,Concombre | pièce,1,pièce,,,2.5,Produits Locaux,,0
+33,Raisin rouge | 1 kg,1,1kg,1000,,6.5,Produits Locaux,,0
+34,Figues | pièce,1,pièce les grosses 1 CHF et 0.50 les moyennes,,,1,Produits Locaux,,0
+35,Figues | pièce,1,pièce les grosses 1 CHF et 0.50 les moyennes,,,1,Produits Locaux,,0
+36,Ciboulette ,1,bouquet,,,0.5,Aromatiques Locaux,,0
+37,Persil,1,bouquet,,,1,Aromatiques Locaux,,0
+38,Origan,1,bouquet,,,1,Aromatiques Locaux,,0
+39,Sauge,1,bouquet,,,1,Aromatiques Locaux,,0
+40,Thym,1,bouquet,,,1,Aromatiques Locaux,,0
+41,Romarin,1,bouquet,,,1,Aromatiques Locaux,,0
+42,Sarriette,1,bouquet,,,1,Aromatiques Locaux,,0
+43,Marrube blanc,1,bouquet,,,1,Aromatiques Locaux,,0
+44,Immortel ,1,bouquet,,,1,Aromatiques Locaux,,0
+45,Haricots  | 1 kg,1,1kg,1000,,9,Produits suisses de régions voisines,,0
+46,Panais    | 1 kg,1,1kg,1000,,7,Produits suisses de régions voisines,,0
+47,Échalotes    | 1 kg,1,1kg,1000,,7,Produits suisses de régions voisines,,0
+48,Radis  | la botte,1,la botte,,,2,Produits suisses de régions voisines,,0
+49,Oignons | la botte,1,la botte,,,3.5,Produits suisses de régions voisines,,0
+50,Carotte en fannes | la botte,1,la botte,,,4.5,Produits suisses de régions voisines,,0
+51,Salades | pièce,1,pièce,,,3,Produits suisses de régions voisines,,0
+52,Aubergines  | 1 kg,1,1kg,1000,,7,Produits suisses de régions voisines,,0
+53,Poireaux   | 1 kg,1,1kg,1000,,4.5,Produits suisses de régions voisines,,0
+54,Poivrons rouge  | 1 kg,1,1kg,1000,,7,Produits suisses de régions voisines,http://marchelocal.site/wp-content/uploads/2018/06/red-chillies.jpg,0
+55,Poivrons jaune  | 1 kg,1,1kg,1000,,7,Produits suisses de régions voisines,,0
+56,Choux fleur  | 1 kg,1,1kg,1000,,7,Produits suisses de régions voisines,,0
+57,Brocoli  | 1 kg,1,1kg,1000,,7,Produits suisses de régions voisines,,0
+58,Romanesco | 1 kg,1,1kg,1000,,8,Produits suisses de régions voisines,,0
+59,Choux-pomme (colrave) | pièce,1,pièce,,,2.5,Produits suisses de régions voisines,,0
+60,Rutabaga  | 1 kg,1,1kg,1000,,7,Produits suisses de régions voisines,,0
+61,Betteraves crues  | 1 kg,1,1kg,1000,,4,Produits suisses de régions voisines,,0
+62,"Betteraves cuites, sous vide  | 1 kg",1,1kg,1000,,6,Produits suisses de régions voisines,,0
+63,"Betteraves coupées en cubes, sous vide  | 1 kg",1,1kg,1000,,10,Produits suisses de régions voisines,,0
+64,Rave blanche  | 1 kg,1,1kg,1000,,9,Produits suisses de régions voisines,,0
+65,Endives  | 1 kg,1,1kg,1000,,6.5,Produits suisses de régions voisines,,0
+66,Chou blanc  | 1 kg,1,1kg,1000,,5,Produits suisses de régions voisines,,0
+67,Chou rouge  | 1 kg,1,1kg,1000,,5,Produits suisses de régions voisines,,0
+68,"Poires Conférences, William, Guillot (selon saison)  | 1 kg",1,1kg,1000,,4,Produits suisses de régions voisines,,0
+69,"Pommes Gala, Boscop, Gravenstein, etc (selon la saison)  | 1 kg",1,1kg,1000,,4,Produits suisses de régions voisines,,0
+70,Raisin chasselat | 1 kg,1,1kg,1000,,9,Produits suisses de régions voisines,,0
+71,Bananes bio | 1 kg,1,1kg,1000,,3.5,Produits importés pour ce que nous n'avons pas ici,,0
+72,Mangues bio | pièce,1,pièce,,,3.5,Produits importés pour ce que nous n'avons pas ici,,0
+73,Avacats (Peru) | pièce,1,Peru | pièce,,,2.5,Produits importés pour ce que nous n'avons pas ici,,0
+74,Dattes (Turquie) | 100 gr,1,Turquie | 100 gr,100,,1.5,Produits importés pour ce que nous n'avons pas ici,,0
+75,"Huile d'olive grecque (import direct) | 0,25 litre",1,"(import direct) | 0,250 litre",250,,8,Produits importés pour ce que nous n'avons pas ici,,0
+76,"Huile d'olive grecque (import direct) | 0,5 litre",1,"(import direct) | 0,5 litre",500,,15,Produits importés pour ce que nous n'avons pas ici,,0
+77,Huile d'olive grecque (import direct) | 1 litre,1,(import direct) | 1 litre,1000,,27,Produits importés pour ce que nous n'avons pas ici,,0

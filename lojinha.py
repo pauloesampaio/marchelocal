@@ -11,23 +11,34 @@ quantities = {}
 
 try:
     product_list = get_products()
+    published_products = product_list.loc[product_list["Published"]==1,:].reset_index(drop=True)
     with st.container():
-        c = st.columns(4)
-        c[0].text("Picture")
-        c[1].text("Product")
-        c[2].text("Price")
-        c[3].text("Quantity")
+        c = st.columns([1,4,1,1,1])
+        c[0].markdown("**Picture**")
+        c[1].markdown("**Product**")
+        c[2].markdown("**Price**")
+        c[3].markdown("**Quantity**")
+        c[4].markdown("**Total**")
     for i, each in product_list.iterrows():
         with st.container():
-            c = st.columns(5)
+            c = st.columns([1,4,1,1,1])
             c[0].image("https://placehold.co/64x64")
-            c[1].text(each["name"])
-            c[2].text(float(each["price"]))
-            quantities[each["name"]] = c[3].number_input(label="Quantity", min_value=0, max_value=10, step=1, key=i, label_visibility="collapsed")
-            c[4].text(quantities[each["name"]] * float(each["price"]))
+            c[1].markdown(f'''
+                            {each["Name"]}\n
+                            {each["Description"]}\n
+                            Weight (g): {each["Weight (g)"]}\n                             
+                           ''')
+            c[2].markdown(f'CHF {float(each["Regular price"]):.2f}')
+            quantities[each["ID"]] = c[3].number_input(label="Quantity", min_value=0, max_value=10, step=1, key=i, label_visibility="collapsed")
+            c[4].markdown(f'CHF {quantities[each["ID"]] * float(each["Regular price"]):.2f}')
 
-    total =  sum([x*y for x,y in zip(quantities.values(), product_list["price"].tolist())])
-    st.write(f"Total: {total}")
+    total =  sum([x*y for x,y in zip(quantities.values(), product_list["Regular price"].tolist())])
+    c = st.columns([1,4,1,1,1])
+    c[3].markdown("**Total:**")
+    c[4].markdown(f"**CHF {total:.2f}**")
+    if c[1].button(label="Add to cart", type="primary"):
+        st.write("Test")
+
 except URLError as e:
     st.error(
         """
