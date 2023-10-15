@@ -8,7 +8,7 @@ import smtplib
 from email.mime.text import MIMEText
 
 st.set_page_config(layout="wide")
-columns_proportion = [5,40,20,10,5,20]
+columns_proportion = [5,35,20,10,10,20]
 
 hide_streamlit_style = """
             <style>
