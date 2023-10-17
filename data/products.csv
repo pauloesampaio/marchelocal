@@ -1,78 +1,77 @@
-ID,Name,Published,Description,Sale price,Regular price,Categories,Images,Position
-1,Tomates Marmandes,1,1kg,,8.00,Produits Locaux,http://marchelocal.site/wp-content/uploads/2023/10/tomate-marmande.jpeg,0
-2,Tomates roses de Berne,1,1kg,,8.00,Produits Locaux,http://marchelocal.site/wp-content/uploads/2023/10/tomate-marmande.jpeg,0
-3,Tomates en grappes,1,1kg,,6.00,Produits Locaux,http://marchelocal.site/wp-content/uploads/2023/10/Tomates-en-grappes.jpg,0
-4,Pommes de terres fermes,1,1kg,,3.00,Produits Locaux,http://marchelocal.site/wp-content/uploads/2023/10/Pommes-de-terres-farineuses.jpg,0
-5,Pommes de terres farineuses,1,1kg,,3.00,Produits Locaux,http://marchelocal.site/wp-content/uploads/2023/10/Pommes-de-terres-fermes.jpg,0
-6,Toutes sortes de courges,1,1kg | Indiquez le type de courge que vous préférez dans les commentaires finaux,,4.00,Produits Locaux,http://marchelocal.site/wp-content/uploads/2023/10/Toutes-sortes-de-courges.png,0
-7,Courgette,1,1kg,,5.50,Produits Locaux,http://marchelocal.site/wp-content/uploads/2023/10/Courgette.jpg,0
-8,Concombre,1,pièce,,2.50,Produits Locaux,http://marchelocal.site/wp-content/uploads/2023/10/concombre.jpeg,0
-9,Raisin rouge,1,1kg,,6.50,Produits Locaux,http://marchelocal.site/wp-content/uploads/2023/10/concombre.jpeg,0
-10,Figues Grosses,1,pièce les grosses 1 CHF,,1.00,Produits Locaux,http://marchelocal.site/wp-content/uploads/2023/10/Figues.jpg,0
-11,Figues Moyennes,1,pièce les moyennes 0.50 CHF,,0.50,Produits Locaux,http://marchelocal.site/wp-content/uploads/2023/10/Figues-moyennes.jpg,0
-12,Ciboulette,1,bouquet,,0.50,Aromatiques Locaux,http://marchelocal.site/wp-content/uploads/2023/10/bouquets-aromatiques-2.jpg,0
-13,Persil,1,bouquet,,1.00,Aromatiques Locaux,http://marchelocal.site/wp-content/uploads/2023/10/bouquets-aromatiques-2.jpg,0
-14,Origan,1,bouquet,,1.00,Aromatiques Locaux,http://marchelocal.site/wp-content/uploads/2023/10/bouquets-aromatiques-2.jpg,0
-15,Sauge,1,bouquet,,1.00,Aromatiques Locaux,http://marchelocal.site/wp-content/uploads/2023/10/bouquets-aromatiques-2.jpg,0
-16,Thym,1,bouquet,,1.00,Aromatiques Locaux,http://marchelocal.site/wp-content/uploads/2023/10/bouquets-aromatiques-2.jpg,0
-17,Romarin,1,bouquet,,1.00,Aromatiques Locaux,http://marchelocal.site/wp-content/uploads/2023/10/bouquets-aromatiques-2.jpg,0
-18,Sarriette,1,bouquet,,1.00,Aromatiques Locaux,http://marchelocal.site/wp-content/uploads/2023/10/bouquets-aromatiques-2.jpg,0
-19,Marrube blanc,1,bouquet,,1.00,Aromatiques Locaux,http://marchelocal.site/wp-content/uploads/2023/10/bouquets-aromatiques-2.jpg,0
-20,Immortel,1,bouquet,,1.00,Aromatiques Locaux,http://marchelocal.site/wp-content/uploads/2023/10/bouquets-aromatiques-2.jpg,0
-21,Haricots,1,1kg,,9.00,Produits suisses de régions voisines,http://marchelocal.site/wp-content/uploads/2023/10/Haricots.jpg,0
-22,Panais,1,1kg,,7.00,Produits suisses de régions voisines,http://marchelocal.site/wp-content/uploads/2023/10/panais.jpg,0
-23,Échalotes,1,1kg,,7.00,Produits suisses de régions voisines,http://marchelocal.site/wp-content/uploads/2023/10/echalote.jpg,0
-24,Radis,1,la botte,,2.00,Produits suisses de régions voisines,http://marchelocal.site/wp-content/uploads/2023/10/Radis.jpg,0
-25,Oignons,1,la botte,,3.50,Produits suisses de régions voisines,http://marchelocal.site/wp-content/uploads/2023/10/oignons.jpg,0
-26,Carotte en fannes,1,la botte,,4.50,Produits suisses de régions voisines,http://marchelocal.site/wp-content/uploads/2023/10/Carotte-en-fannes.jpg,0
-27,Salades,1,pièce,,3.00,Produits suisses de régions voisines,http://marchelocal.site/wp-content/uploads/2023/10/salades.jpg,0
-28,Aubergines,1,1kg,,7.00,Produits suisses de régions voisines,http://marchelocal.site/wp-content/uploads/2023/10/aubergineS-scaled.jpg,0
-29,Poireaux,1,1kg,,4.50,Produits suisses de régions voisines,http://marchelocal.site/wp-content/uploads/2023/10/Poireaux.jpg,0
-30,Poivrons rouge,1,1kg,,7.00,Produits suisses de régions voisines,http://marchelocal.site/wp-content/uploads/2023/10/Poireaux.jpg,0
-31,Poivrons jaune,1,1kg,,7.00,Produits suisses de régions voisines,http://marchelocal.site/wp-content/uploads/2023/10/Poivrons-jaune.jpg,0
-32,Choux fleur,1,1kg,,7.00,Produits suisses de régions voisines,http://marchelocal.site/wp-content/uploads/2023/10/Choux-fleur.png,0
-33,Brocoli,1,1kg,,7.00,Produits suisses de régions voisines,http://marchelocal.site/wp-content/uploads/2023/10/broccoli.png,0
-34,Romanesco,1,1kg,,8.00,Produits suisses de régions voisines,http://marchelocal.site/wp-content/uploads/2023/10/Romanesco.jpg,0
-35,Choux-pomme (colrave),1,pièce,,2.50,Produits suisses de régions voisines,http://marchelocal.site/wp-content/uploads/2023/10/Choux-pomme-colrave.jpg,0
-36,Rutabaga,1,1kg,,7.00,Produits suisses de régions voisines,http://marchelocal.site/wp-content/uploads/2023/10/Rutabaga.png,0
-37,Betteraves crues,1,1kg,,4.00,Produits suisses de régions voisines,http://marchelocal.site/wp-content/uploads/2023/10/Betteraves-crues.jpg,0
-38,"Betteraves cuites, sous vide",1,1kg,,6.00,Produits suisses de régions voisines,http://marchelocal.site/wp-content/uploads/2023/10/batterave-sous-vide.jpg,0
-39,"Betteraves coupées en cubes, sous vide",1,1kg,,10.00,Produits suisses de régions voisines,http://marchelocal.site/wp-content/uploads/2023/10/Betteraves-coupees-en-cubes-sous-vide.jpeg,0
-40,Rave blanche,1,1kg,,9.00,Produits suisses de régions voisines,http://marchelocal.site/wp-content/uploads/2023/10/Rave-blanche.jpg,0
-41,Endives,1,1kg,,6.50,Produits suisses de régions voisines,http://marchelocal.site/wp-content/uploads/2023/10/Endives.jpg,0
-42,Chou blanc,1,1kg,,5.00,Produits suisses de régions voisines,http://marchelocal.site/wp-content/uploads/2023/10/Chou-blanc.jpg,0
-43,Chou rouge,1,1kg,,5.00,Produits suisses de régions voisines,http://marchelocal.site/wp-content/uploads/2023/10/Chou-rouge.jpg,0
-44,"Poires Conférences, William, Guillot (selon saison)",1,1kg,,4.00,Produits suisses de régions voisines,http://marchelocal.site/wp-content/uploads/2023/10/Poires-Conferences-William-Guillot.jpg,0
-45,"Pommes Gala, Boscop, Gravenstein, etc (selon la saison)",1,1kg,,4.00,Produits suisses de régions voisines,http://marchelocal.site/wp-content/uploads/2023/10/Pommes-Gala-Boscop-Gravenstein.png,0
-46,Raisin chasselat,1,1kg,,9.00,Produits suisses de régions voisines,http://marchelocal.site/wp-content/uploads/2023/10/Raisin-chasselat.jpg,0
-47,Pâte feuilletée maison au beurre de laiterie,1,600 gr en congélation dans sachet isotherme. Prévoir la réception rapidement si la pâte doit être gardée congelée,,12.00,Artisanaux,http://marchelocal.site/wp-content/uploads/2023/10/pate-feuilletee-recette.jpg,0
-48,Pâte feuilletée maison au beurre de laiterie,1,350 gr en congélation dans sachet isotherme. Prévoir la réception rapidement si la pâte doit être gardée congelée,,7.00,Artisanaux,http://marchelocal.site/wp-content/uploads/2023/10/pate-feuilletee-recette.jpg,0
-49,Quiches aux légumes: tartelette,1,Tartelette,,4.00,Artisanaux,http://marchelocal.site/wp-content/uploads/2023/10/Quice-aux-legumes.jpg,0
-50,Quiches aux légumes: taille moyenne 4 portions,1,Taille: moyenne 4 portions,,14.00,Artisanaux,http://marchelocal.site/wp-content/uploads/2023/10/Quice-aux-legumes.jpg,0
-51,Quiches aux légumes: taille grande de 28cm,1,Taille: grande de 28cm,,25.00,Artisanaux,http://marchelocal.site/wp-content/uploads/2023/10/Quice-aux-legumes.jpg,0
-52,Taillé aux greubons : la botte,1,la botte,,2.00,Artisanaux,http://marchelocal.site/wp-content/uploads/2023/10/Quice-aux-legumes.jpg,0
-53,Mini taillé aux greubons,1,mini taillés pour apéros | la botte,,2.00,Artisanaux,http://marchelocal.site/wp-content/uploads/2023/10/Quice-aux-legumes.jpg,0
-54,Bricelets sucrés maison,1,paquet,,8.00,Artisanaux,http://marchelocal.site/wp-content/uploads/2023/10/Bricelets-sucres-et-sales-maison-scaled.jpg,0
-55,Bricelets salés maison,1,paquet,,8.00,Artisanaux,http://marchelocal.site/wp-content/uploads/2023/10/Bricelets-sucres-et-sales-maison-rustico.jpg,0
-56,Confiture: tomates vertes,1,"Au gingembre, vanillé, au citron, nature. Choisir la saveur dans les commentaires finaux",,7.00,Artisanaux,http://marchelocal.site/wp-content/uploads/2023/10/confiture-maison-general.jpg,0
-57,Confiture: carottes,1,,,7.00,Artisanaux,http://marchelocal.site/wp-content/uploads/2023/10/confiture-maison-general.jpg,0
-58,Confiture: courge aux raisin secs,1,,,7.00,Artisanaux,http://marchelocal.site/wp-content/uploads/2023/10/confiture-maison-general.jpg,0
-59,Confiture: abricot cardamome,1,,,7.00,Artisanaux,http://marchelocal.site/wp-content/uploads/2023/10/confiture-maison-general.jpg,0
-60,Confiture: limes,1,,,7.00,Artisanaux,http://marchelocal.site/wp-content/uploads/2023/10/confiture-maison-general.jpg,0
-61,Confiture: 3 agrumes,1,,,7.00,Artisanaux,http://marchelocal.site/wp-content/uploads/2023/10/confiture-maison-general.jpg,0
-62,Confiture citron bergamote,1,,,7.00,Artisanaux,http://marchelocal.site/wp-content/uploads/2023/10/confiture-maison-general.jpg,0
-63,Confiture: miel de pissenlit,1,,,7.00,Artisanaux,http://marchelocal.site/wp-content/uploads/2023/10/confiture-maison-general.jpg,0
-64,Confiture: reine-claude,1,,,7.00,Artisanaux,http://marchelocal.site/wp-content/uploads/2023/10/confiture-maison-general.jpg,0
-65,Confiture: gelée de sureau,1,,,7.00,Artisanaux,http://marchelocal.site/wp-content/uploads/2023/10/confiture-maison-general.jpg,0
-66,"Sirops maison | Saveurs: Romarin, sauge, aspérule odorante, menthe, fleurs de sureau",1,25 cl | Indiquer l'arôme que vous avez choisi dans les commentaires finaux,,3.50,Artisanaux,http://marchelocal.site/wp-content/uploads/2023/10/confiture-maison-general.jpg,0
-67,Sirops maison | Saveur: Lavabda,1,25 cl,,4.00,Artisanaux,http://marchelocal.site/wp-content/uploads/2023/10/confiture-maison-general.jpg,0
-68,Ketchup bio maison,1,25 cl,,6.50,Artisanaux,http://marchelocal.site/wp-content/uploads/2023/10/Ketchup-Maison.png,0
-69,"Miel de Morrens: colza, fleurs et forêt",1,Indiquer l'arôme que vous avez choisi dans les commentaires finaux,,14.00,Artisanaux,http://marchelocal.site/wp-content/uploads/2018/06/organic-honey.jpg,0
-70,Jus de pommes bio (Cugy) cubi de 5 litres,1,5 l,,16.00,Artisanaux,http://marchelocal.site/wp-content/uploads/2023/10/jus-de-pommes.jpg,0
-71,Bananes bio,1,1kg,,3.50,Produits importés pour ce que nous n'avons pas ici,http://marchelocal.site/wp-content/uploads/2023/10/Bananes-Bio.jpg,0
-72,Mangues bio,1,pièce,,3.50,Produits importés pour ce que nous n'avons pas ici,http://marchelocal.site/wp-content/uploads/2023/10/Mangues-bio.jpg,0
-73,Avocats (Peru),1,Peru | pièce,,2.50,Produits importés pour ce que nous n'avons pas ici,http://marchelocal.site/wp-content/uploads/2023/10/Avocates.jpg,0
-74,Dattes (Turquie),1,Turquie | 100 gr,,1.50,Produits importés pour ce que nous n'avons pas ici,http://marchelocal.site/wp-content/uploads/2023/10/Dattes.jpg,0
-75,Huile d'olive grecque (import direct),1,"(import direct) | 0,25 litre",,8.00,Produits importés pour ce que nous n'avons pas ici,http://marchelocal.site/wp-content/uploads/2023/10/Huile-dolive-grecque-fundo.jpg,0
-76,Huile d'olive grecque (import direct),1,"(import direct) | 0,5 litre",,15.00,Produits importés pour ce que nous n'avons pas ici,http://marchelocal.site/wp-content/uploads/2023/10/Huile-dolive-grecque-fundo.jpg,0
-77,Huile d'olive grecque (import direct),1,(import direct) | 1 litre,,27.00,Produits importés pour ce que nous n'avons pas ici,http://marchelocal.site/wp-content/uploads/2023/10/Huile-dolive-grecque-fundo.jpg,0
+ID,Name,Published,Description,Sale price,Regular price,Categories,Images,Position,Mesure
+1,Tomates Marmandes,1,1kg,,8.00,Produits Locaux,http://marchelocal.site/wp-content/uploads/2023/10/tomate-marmande.jpeg,0,kg
+2,Tomates roses de Berne,1,1kg,,8.00,Produits Locaux,http://marchelocal.site/wp-content/uploads/2023/10/tomate-marmande.jpeg,0,kg
+3,Tomates en grappes,1,1kg,,6.00,Produits Locaux,http://marchelocal.site/wp-content/uploads/2023/10/Tomates-en-grappes.jpg,0,kg
+4,Pommes de terres fermes,1,1kg,,3.00,Produits Locaux,http://marchelocal.site/wp-content/uploads/2023/10/Pommes-de-terres-farineuses.jpg,0,kg
+5,Pommes de terres farineuses,1,1kg,,3.00,Produits Locaux,http://marchelocal.site/wp-content/uploads/2023/10/Pommes-de-terres-fermes.jpg,0,kg
+6,Toutes sortes de courges,1,1kg | Indiquez le type de courge que vous préférez dans les commentaires finaux,,4.00,Produits Locaux,http://marchelocal.site/wp-content/uploads/2023/10/Toutes-sortes-de-courges.png,0,kg
+7,Courgette,1,1kg,,5.50,Produits Locaux,http://marchelocal.site/wp-content/uploads/2023/10/Courgette.jpg,0,kg
+8,Concombre,1,pièce,,2.50,Produits Locaux,http://marchelocal.site/wp-content/uploads/2023/10/concombre.jpeg,0,unité
+9,Raisin rouge,1,1kg,,6.50,Produits Locaux,http://marchelocal.site/wp-content/uploads/2023/10/concombre.jpeg,0,kg
+10,Figues,1,pièce,,1.00,Produits Locaux,http://marchelocal.site/wp-content/uploads/2023/10/Figues.jpg,0,unité
+11,Ciboulette,1,bouquet,,0.50,Aromatiques Locaux,http://marchelocal.site/wp-content/uploads/2023/10/bouquets-aromatiques-2.jpg,0,unité
+12,Persil,1,bouquet,,1.00,Aromatiques Locaux,http://marchelocal.site/wp-content/uploads/2023/10/bouquets-aromatiques-2.jpg,0,unité
+13,Origan,1,bouquet,,1.00,Aromatiques Locaux,http://marchelocal.site/wp-content/uploads/2023/10/bouquets-aromatiques-2.jpg,0,unité
+14,Sauge,1,bouquet,,1.00,Aromatiques Locaux,http://marchelocal.site/wp-content/uploads/2023/10/bouquets-aromatiques-2.jpg,0,unité
+15,Thym,1,bouquet,,1.00,Aromatiques Locaux,http://marchelocal.site/wp-content/uploads/2023/10/bouquets-aromatiques-2.jpg,0,unité
+16,Romarin,1,bouquet,,1.00,Aromatiques Locaux,http://marchelocal.site/wp-content/uploads/2023/10/bouquets-aromatiques-2.jpg,0,unité
+17,Sarriette,1,bouquet,,1.00,Aromatiques Locaux,http://marchelocal.site/wp-content/uploads/2023/10/bouquets-aromatiques-2.jpg,0,unité
+18,Marrube blanc,1,bouquet,,1.00,Aromatiques Locaux,http://marchelocal.site/wp-content/uploads/2023/10/bouquets-aromatiques-2.jpg,0,unité
+19,Immortel,1,bouquet,,1.00,Aromatiques Locaux,http://marchelocal.site/wp-content/uploads/2023/10/bouquets-aromatiques-2.jpg,0,unité
+20,Haricots,1,1kg,,9.00,Produits suisses de régions voisines,http://marchelocal.site/wp-content/uploads/2023/10/Haricots.jpg,0,kg
+21,Panais,1,1kg,,7.00,Produits suisses de régions voisines,http://marchelocal.site/wp-content/uploads/2023/10/panais.jpg,0,kg
+22,Échalotes,1,1kg,,7.00,Produits suisses de régions voisines,http://marchelocal.site/wp-content/uploads/2023/10/echalote.jpg,0,kg
+23,Radis,1,la botte,,2.00,Produits suisses de régions voisines,http://marchelocal.site/wp-content/uploads/2023/10/Radis.jpg,0,botte
+24,Oignons,1,la botte,,3.50,Produits suisses de régions voisines,http://marchelocal.site/wp-content/uploads/2023/10/oignons.jpg,0,botte
+25,Carotte en fannes,1,la botte,,4.50,Produits suisses de régions voisines,http://marchelocal.site/wp-content/uploads/2023/10/Carotte-en-fannes.jpg,0,botte
+26,Salades,1,pièce,,3.00,Produits suisses de régions voisines,http://marchelocal.site/wp-content/uploads/2023/10/salades.jpg,0,pièce
+27,Aubergines,1,1kg,,7.00,Produits suisses de régions voisines,http://marchelocal.site/wp-content/uploads/2023/10/aubergineS-scaled.jpg,0,kg
+28,Poireaux,1,1kg,,4.50,Produits suisses de régions voisines,http://marchelocal.site/wp-content/uploads/2023/10/Poireaux.jpg,0,kg
+29,Poivrons rouge,1,1kg,,7.00,Produits suisses de régions voisines,http://marchelocal.site/wp-content/uploads/2023/10/Poivrons-rouge.jpg,0,kg
+30,Poivrons jaune,1,1kg,,7.00,Produits suisses de régions voisines,http://marchelocal.site/wp-content/uploads/2023/10/Poivrons-jaune.jpg,0,kg
+31,Choux fleur,1,1kg,,7.00,Produits suisses de régions voisines,http://marchelocal.site/wp-content/uploads/2023/10/Choux-fleur.png,0,kg
+32,Brocoli,1,1kg,,7.00,Produits suisses de régions voisines,http://marchelocal.site/wp-content/uploads/2023/10/broccoli.png,0,kg
+33,Romanesco,1,1kg,,8.00,Produits suisses de régions voisines,http://marchelocal.site/wp-content/uploads/2023/10/Romanesco.jpg,0,kg
+34,Choux-pomme (colrave),1,pièce,,2.50,Produits suisses de régions voisines,http://marchelocal.site/wp-content/uploads/2023/10/Choux-pomme-colrave.jpg,0,pièce
+35,Rutabaga,1,1kg,,7.00,Produits suisses de régions voisines,http://marchelocal.site/wp-content/uploads/2023/10/Rutabaga.png,0,kg
+36,Betteraves crues,1,1kg,,4.00,Produits suisses de régions voisines,http://marchelocal.site/wp-content/uploads/2023/10/Betteraves-crues.jpg,0,kg
+37,"Betteraves cuites, sous vide",1,1kg,,6.00,Produits suisses de régions voisines,http://marchelocal.site/wp-content/uploads/2023/10/batterave-sous-vide.jpg,0,kg
+38,"Betteraves coupées en cubes, sous vide",1,1kg,,10.00,Produits suisses de régions voisines,http://marchelocal.site/wp-content/uploads/2023/10/Betteraves-coupees-en-cubes-sous-vide.jpeg,0,kg
+39,Rave blanche,1,1kg,,9.00,Produits suisses de régions voisines,http://marchelocal.site/wp-content/uploads/2023/10/Rave-blanche.jpg,0,kg
+40,Endives,1,1kg,,6.50,Produits suisses de régions voisines,http://marchelocal.site/wp-content/uploads/2023/10/Endives.jpg,0,kg
+41,Chou blanc,1,1kg,,5.00,Produits suisses de régions voisines,http://marchelocal.site/wp-content/uploads/2023/10/Chou-blanc.jpg,0,kg
+42,Chou rouge,1,1kg,,5.00,Produits suisses de régions voisines,http://marchelocal.site/wp-content/uploads/2023/10/Chou-rouge.jpg,0,kg
+43,"Poires Conférences, William, Guillot (selon saison)",1,1kg,,4.00,Produits suisses de régions voisines,http://marchelocal.site/wp-content/uploads/2023/10/Poires-Conferences-William-Guillot.jpg,0,kg
+44,"Pommes Gala, Boscop, Gravenstein, etc (selon la saison)",1,1kg,,4.00,Produits suisses de régions voisines,http://marchelocal.site/wp-content/uploads/2023/10/Pommes-Gala-Boscop-Gravenstein.png,0,kg
+45,Raisin chasselat,1,1kg,,9.00,Produits suisses de régions voisines,http://marchelocal.site/wp-content/uploads/2023/10/Raisin-chasselat.jpg,0,kg
+46,Pâte feuilletée maison au beurre de laiterie,1,600 gr en congélation dans sachet isotherme. Prévoir la réception rapidement si la pâte doit être gardée congelée,,12.00,Artisanaux,http://marchelocal.site/wp-content/uploads/2023/10/pate-feuilletee-recette.jpg,0,unité
+47,Pâte feuilletée maison au beurre de laiterie,1,350 gr en congélation dans sachet isotherme. Prévoir la réception rapidement si la pâte doit être gardée congelée,,7.00,Artisanaux,http://marchelocal.site/wp-content/uploads/2023/10/pate-feuilletee-recette.jpg,0,unité
+48,Quiches aux légumes: tartelette,1,Tartelette,,4.00,Artisanaux,http://marchelocal.site/wp-content/uploads/2023/10/Quice-aux-legumes.jpg,0,unité
+49,Quiches aux légumes: taille moyenne 4 portions,1,Taille: moyenne 4 portions,,14.00,Artisanaux,http://marchelocal.site/wp-content/uploads/2023/10/Quice-aux-legumes.jpg,0,portion
+50,Quiches aux légumes: taille grande de 28cm,1,Taille: grande de 28cm,,25.00,Artisanaux,http://marchelocal.site/wp-content/uploads/2023/10/Quice-aux-legumes.jpg,0,unité
+51,Taillé aux greubons,1,pièce,,2.00,Artisanaux,http://marchelocal.site/wp-content/uploads/2023/10/Tgreubons.jpg,0,unité
+52,Mini taillé aux greubons,1,mini taillés pour apéros | la botte,,2.00,Artisanaux,http://marchelocal.site/wp-content/uploads/2023/10/Tgreubons.jpg,0,botte
+53,Bricelets sucrés maison,1,paquet,,8.00,Artisanaux,http://marchelocal.site/wp-content/uploads/2023/10/Bricelets-sucres-et-sales-maison-scaled.jpg,0,paquet
+54,Bricelets salés maison,1,paquet,,8.00,Artisanaux,http://marchelocal.site/wp-content/uploads/2023/10/Bricelets-sucres-et-sales-maison-rustico.jpg,0,paquet
+55,Confiture: tomates vertes,1,"Au gingembre, vanillé, au citron, nature. Choisir la saveur dans les commentaires finaux",,7.00,Artisanaux,http://marchelocal.site/wp-content/uploads/2023/10/confiture-maison-general.jpg,0,unité
+56,Confiture: carottes,1,,,7.00,Artisanaux,http://marchelocal.site/wp-content/uploads/2023/10/confiture-maison-general.jpg,0,unité
+57,Confiture: courge aux raisin secs,1,,,7.00,Artisanaux,http://marchelocal.site/wp-content/uploads/2023/10/confiture-maison-general.jpg,0,unité
+58,Confiture: abricot cardamome,1,,,7.00,Artisanaux,http://marchelocal.site/wp-content/uploads/2023/10/confiture-maison-general.jpg,0,unité
+59,Confiture: limes,1,,,7.00,Artisanaux,http://marchelocal.site/wp-content/uploads/2023/10/confiture-maison-general.jpg,0,unité
+60,Confiture: 3 agrumes,1,,,7.00,Artisanaux,http://marchelocal.site/wp-content/uploads/2023/10/confiture-maison-general.jpg,0,unité
+61,Confiture citron bergamote,1,,,7.00,Artisanaux,http://marchelocal.site/wp-content/uploads/2023/10/confiture-maison-general.jpg,0,unité
+62,Confiture: miel de pissenlit,1,,,7.00,Artisanaux,http://marchelocal.site/wp-content/uploads/2023/10/confiture-maison-general.jpg,0,unité
+63,Confiture: reine-claude,1,,,7.00,Artisanaux,http://marchelocal.site/wp-content/uploads/2023/10/confiture-maison-general.jpg,0,unité
+64,Confiture: gelée de sureau,1,,,7.00,Artisanaux,http://marchelocal.site/wp-content/uploads/2023/10/confiture-maison-general.jpg,0,unité
+65,"Sirops maison | Saveurs: Romarin, sauge, aspérule odorante, menthe, fleurs de sureau",1,25 cl | Indiquer l'arôme que vous avez choisi dans les commentaires finaux,,3.50,Artisanaux,http://marchelocal.site/wp-content/uploads/2023/10/Sirops-maison.jpg,0,unité
+66,Sirops maison | Saveur: Lavanda,1,25 cl,,4.00,Artisanaux,http://marchelocal.site/wp-content/uploads/2023/10/Sirops-maison.jpg,0,unité
+67,Ketchup bio maison,1,25 cl,,6.50,Artisanaux,http://marchelocal.site/wp-content/uploads/2023/10/Ketchup-Maison.png,0,unité
+68,"Miel de Morrens: colza, fleurs et forêt",1,Indiquer l'arôme que vous avez choisi dans les commentaires finaux,,14.00,Artisanaux,http://marchelocal.site/wp-content/uploads/2018/06/organic-honey.jpg,0,unité
+69,Jus de pommes bio (Cugy) cubi de 5 litres,1,5 l,,16.00,Artisanaux,http://marchelocal.site/wp-content/uploads/2023/10/jus-de-pommes.jpg,0,unité
+70,Bananes bio,1,1kg,,3.50,Produits importés pour ce que nous n'avons pas ici,http://marchelocal.site/wp-content/uploads/2023/10/Bananes-Bio.jpg,0,kg
+71,Mangues bio,1,pièce,,3.50,Produits importés pour ce que nous n'avons pas ici,http://marchelocal.site/wp-content/uploads/2023/10/Mangues-bio.jpg,0,pièce
+72,Avocats (Peru),1,Peru | pièce,,2.50,Produits importés pour ce que nous n'avons pas ici,http://marchelocal.site/wp-content/uploads/2023/10/Avocates.jpg,0,pièce
+73,Dattes (Turquie),1,Turquie | 100 gr,,1.50,Produits importés pour ce que nous n'avons pas ici,http://marchelocal.site/wp-content/uploads/2023/10/Dattes.jpg,0,pièce
+74,Huile d'olive grecque,1,"(import direct) | 0,25 litre",,8.00,Produits importés pour ce que nous n'avons pas ici,http://marchelocal.site/wp-content/uploads/2023/10/Huile-dolive-grecque-fundo.jpg,0,unité
+75,Huile d'olive grecque,1,"(import direct) | 0,5 litre",,15.00,Produits importés pour ce que nous n'avons pas ici,http://marchelocal.site/wp-content/uploads/2023/10/Huile-dolive-grecque-fundo.jpg,0,unité
+76,Huile d'olive grecque,1,(import direct) | 1 litre,,27.00,Produits importés pour ce que nous n'avons pas ici,http://marchelocal.site/wp-content/uploads/2023/10/Huile-dolive-grecque-fundo.jpg,0,unité
