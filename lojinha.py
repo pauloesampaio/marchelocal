@@ -73,7 +73,8 @@ try:
 
             with st.container():
                 total_panier = quantities_df["Total"].sum()
-                st.markdown(f"### Ajouter une note pour des intructions et demandes spéciales")
+                st.markdown(f"### Ajouter une note pour des intructions et demandes spéciales.")
+                st.markdown(f"##### Il y a possibilité de faire des demandes pour des produits ne figurants pas sur la liste et nous ferons de notre mieux pour y satisfaire.")
                 special_demand = st.text_area(placeholder="Ajoutez des instructions ou des demandes spécialles ici",label="Instructions", label_visibility="collapsed")
                 st.markdown(f"### Résumé de la commande")
                 st.markdown(f'''
@@ -85,7 +86,7 @@ try:
                             ''')
             with st.container():
                 st.markdown(f"### Jour et période de livraison gratuite")
-                delivery_schedule = st.radio(label="delivery_schedule", options=["Mardi matin suivant", "Mardi prochain à la mi-journée", "Jeudi matin suivant"], label_visibility="collapsed")
+                delivery_schedule = st.radio(label="delivery_schedule", options=["Mardi matin suivant (vers 4h30, avant l'heure de début du marché)", "Mardi prochain à la mi-journée", "Jeudi matin suivant (entre 7h00 et 8h30)"], label_visibility="collapsed")
             with st.container():
                 client_dict = {}
                 st.markdown(f"### Coordonnées du client et livraison")
