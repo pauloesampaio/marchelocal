@@ -74,7 +74,7 @@ try:
             with st.container():
                 total_panier = quantities_df["Total"].sum()
                 st.markdown(f"### Ajouter une note pour des intructions et demandes spéciales.")
-                st.markdown(f"##### Il y a possibilité de faire des demandes pour des produits ne figurants pas sur la liste et nous ferons de notre mieux pour y satisfaire.")
+                st.markdown(f"Il y a possibilité de faire des demandes pour des produits ne figurants pas sur la liste et nous ferons de notre mieux pour y satisfaire.")
                 special_demand = st.text_area(placeholder="Ajoutez des instructions ou des demandes spécialles ici",label="Instructions", label_visibility="collapsed")
                 st.markdown(f"### Résumé de la commande")
                 st.markdown(f'''
