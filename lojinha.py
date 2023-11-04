@@ -6,10 +6,9 @@ from streamlit.logger import get_logger
 from google.cloud import firestore
 import smtplib
 from email.mime.text import MIMEText
+from st_card_component import card_component
 
 st.set_page_config(layout="wide")
-columns_proportion = [5,35,20,10,10,20]
-
 hide_streamlit_style = """
             <style>
             #MainMenu {visibility: hidden;}
@@ -31,32 +30,25 @@ def init_connection():
 
 try:
     product_list = get_products()
-    published_products = product_list.loc[product_list["Published"]==1,:].reset_index(drop=True)
-    with st.container():
-        c = st.columns(columns_proportion)
-        #c[0].markdown("**Picture**")
-        c[1].markdown("**Produit**")
-        c[2].markdown("**Catégorie**")
-        c[3].markdown("**Prix**")
-        c[4].markdown("**Quantité**")
-        c[5].markdown("**Total**")
-    for i, each in published_products.iterrows():
-        with st.container():
-            c = st.columns(columns_proportion)
-            c[0].image(each["Images"], use_column_width=True)
-            product_name_and_description=f'#### {each["Name"]}\n\n'
-            if not pd.isnull(each["Description"]):
-                product_name_and_description+=f'{each["Description"]}\n\n'
-            c[1].markdown(product_name_and_description)
-            c[2].markdown(f'{each["Categories"]}')
-            c[3].markdown(f'CHF {float(each["Regular price"]):.2f}')
-            quantities[each["ID"]] = c[4].number_input(label="Quantity", min_value=0, max_value=99, step=1, key=i, label_visibility="collapsed")
-            c[5].markdown(f'CHF {quantities[each["ID"]] * float(each["Regular price"]):.2f}')
 
-    total =  sum([x*y for x,y in zip(quantities.values(), product_list["Regular price"].tolist())])
-    c = st.columns(columns_proportion)
-    c[4].markdown("**Total:**")
-    c[5].markdown(f"**CHF {total:.2f}**")
+    published_products = product_list.loc[product_list["Published"]==1,:].reset_index(drop=True)
+    for i, each in published_products.iterrows():
+        id = each["ID"]
+        name = each["Name"]
+        description = "" if pd.isnull(each["Description"]) else each["Description"]
+        category = each["Categories"]
+        price = each["Regular price"]
+        image_url = each["Images"]
+        quantities[id] = card_component(
+            name=name,
+            description=description,
+            category=category,
+            price=price,
+            image_url=image_url,
+            key=i,
+        )
+            
+### PANIER
     #if c[1].button(label="Add to cart", type="primary"):
     with st.form("panier"):
             db = init_connection()
