@@ -65,7 +65,6 @@ try:
             key=i,
         )            
 ### PANIER
-    #if c[1].button(label="Add to cart", type="primary"):
     with st.form("panier"):
             db = init_connection()
             with st.container():
@@ -76,14 +75,11 @@ try:
                 quantities_df = quantities_df.rename(columns={"Name": "Produit", "Regular price": "Prix"})
                 quantities_df["Total"] = quantities_df["Prix"] * quantities_df["Quantité"]
                 quantities_df = quantities_df[["Produit", "Prix", "Quantité", "Total"]]
-                st.dataframe(quantities_df.reset_index(drop=True).style.format(subset=["Prix","Total"], formatter="{:.2f}"))
+                st.dataframe(quantities_df.reset_index(drop=True).style.format(subset=["Prix","Total"], formatter="{:.2f}"), use_container_width=True)
                 order_dict = quantities_df.to_dict(orient="records")
 
             with st.container():
                 total_panier = quantities_df["Total"].sum()
-                st.markdown(f"### Ajouter une note pour des intructions et demandes spéciales.")
-                st.markdown(f"Il y a possibilité de faire des demandes pour des produits ne figurants pas sur la liste et nous ferons de notre mieux pour y satisfaire.")
-                special_demand = st.text_area(placeholder="Ajoutez des instructions ou des demandes spécialles ici",label="Instructions", label_visibility="collapsed")
                 st.markdown(f"### Résumé de la commande")
                 st.markdown(f'''
                             |Total| CHF {total_panier:.2f}|
@@ -92,6 +88,12 @@ try:
                             | - Livraison | CHF 0.00     |
                             | - Taxes    | CHF 0.00    |
                             ''')
+                st.write("\n")
+            with st.container():
+                st.markdown(f"### Ajouter une note pour des intructions et demandes spéciales.")
+                st.markdown(f"Il y a possibilité de faire des demandes pour des produits ne figurants pas sur la liste et nous ferons de notre mieux pour y satisfaire.")
+                special_demand = st.text_area(placeholder="Ajoutez des instructions ou des demandes spécialles ici",label="Instructions", label_visibility="collapsed")
+
             with st.container():
                 st.markdown(f"### Jour et période de livraison gratuite")
                 delivery_schedule = st.radio(label="delivery_schedule", options=["Mardi matin suivant (vers 4h30, avant l'heure de début du marché)", "Mardi prochain à la mi-journée", "Jeudi matin suivant (entre 7h00 et 8h30)"], label_visibility="collapsed")
