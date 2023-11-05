@@ -23,6 +23,16 @@ def get_products():
     return df
 quantities = {}
 
+steps = {
+    "kg": [0, 0.5] + list(range(1, 11, 1)),
+    "unité": list(range(0, 11, 1)),
+    "gr": list(range(0, 1100, 100)) + [1500, 2000],
+    "botte": list(range(0, 11, 1)),
+    "pièce": list(range(0, 11, 1)),
+    "paquet": list(range(0, 11, 1)),
+    "portion": list(range(0, 11, 1)),
+}
+
 @st.cache_resource
 def init_connection():
     client = firestore.Client.from_service_account_info(st.secrets["firebase"])
@@ -32,6 +42,8 @@ try:
     product_list = get_products()
 
     published_products = product_list.loc[product_list["Published"]==1,:].reset_index(drop=True)
+    published_products["Steps"] = published_products["Mesure"].map(steps)
+
     for i, each in published_products.iterrows():
         id = each["ID"]
         name = each["Name"]
@@ -39,15 +51,19 @@ try:
         category = each["Categories"]
         price = each["Regular price"]
         image_url = each["Images"]
+        decorator = each["Mesure"]
+        steps = each["Steps"]
+
         quantities[id] = card_component(
             name=name,
             description=description,
             category=category,
             price=price,
             image_url=image_url,
+            decorator=decorator,
+            steps=steps,
             key=i,
-        )
-            
+        )            
 ### PANIER
     #if c[1].button(label="Add to cart", type="primary"):
     with st.form("panier"):
