@@ -1,16 +1,16 @@
 Position,ID,Name,Published,Description,Sale price,Regular price,Categories,Images,Mesure
-1,1,Tomates Marmandes,1,1kg,,8.00,Produits Locaux (selon la saison),http://marchelocal.ch/wp-content/uploads/2023/10/tomate-marmande.jpeg,kg
-2,2,Tomates roses de Berne,1,1kg,,8.00,Produits Locaux (selon la saison),http://marchelocal.ch/wp-content/uploads/2023/10/tomate-marmande.jpeg,kg
-3,3,Tomates en grappes,1,1kg,,6.00,Produits Locaux (selon la saison),http://marchelocal.ch/wp-content/uploads/2023/10/Tomates-en-grappes.jpg,kg
-4,4,Pommes de terres fermes,1,1kg,,3.00,Produits Locaux (selon la saison),http://marchelocal.ch/wp-content/uploads/2023/10/Pommes-de-terres-farineuses.jpg,kg
-5,5,Pommes de terres farineuses,1,1kg,,3.00,Produits Locaux (selon la saison),http://marchelocal.ch/wp-content/uploads/2023/10/Pommes-de-terres-fermes.jpg,kg
-6,6,Toutes sortes de courges,1,1kg | Indiquez le type de courge que vous préférez dans les commentaires finaux,,4.00,Produits Locaux (selon la saison),http://marchelocal.ch/wp-content/uploads/2023/10/Toutes-sortes-de-courges.png,kg
-7,7,Courgette,0,1kg,,5.50,Produits Locaux (selon la saison),http://marchelocal.ch/wp-content/uploads/2023/10/Courgette.jpg,kg
-8,8,Concombre,0,pièce,,2.50,Produits Locaux (selon la saison),http://marchelocal.ch/wp-content/uploads/2023/10/concombre.jpeg,unité
-9,9,Raisin rouge,1,1kg,,6.50,Produits Locaux (selon la saison),http://marchelocal.ch/wp-content/uploads/2023/10/concombre.jpeg,kg
-10,10,Figues,0,pièce,,1.00,Produits Locaux (selon la saison),http://marchelocal.ch/wp-content/uploads/2023/10/Figues.jpg,unité
-11,11,Doucette,1,100 g,,3.20,Produits Locaux (selon la saison),http://marchelocal.ch/wp-content/uploads/2023/10/doucette.jpg,gr
-12,12,Coings,1,1kg,,3.50,Produits Locaux (selon la saison),http://marchelocal.ch/wp-content/uploads/2023/10/coing.jpg,kg
+1,1,Tomates Marmandes,1,1kg,,8.00,Produits Locaux,http://marchelocal.ch/wp-content/uploads/2023/10/tomate-marmande.jpeg,kg
+2,2,Tomates roses de Berne,1,1kg,,8.00,Produits Locaux,http://marchelocal.ch/wp-content/uploads/2023/10/tomate-marmande.jpeg,kg
+3,3,Tomates en grappes,1,1kg,,6.00,Produits Locaux,http://marchelocal.ch/wp-content/uploads/2023/10/Tomates-en-grappes.jpg,kg
+4,4,Pommes de terres fermes,1,1kg,,3.00,Produits Locaux,http://marchelocal.ch/wp-content/uploads/2023/10/Pommes-de-terres-farineuses.jpg,kg
+5,5,Pommes de terres farineuses,1,1kg,,3.00,Produits Locaux,http://marchelocal.ch/wp-content/uploads/2023/10/Pommes-de-terres-fermes.jpg,kg
+6,6,Toutes sortes de courges,1,1kg | Indiquez le type de courge que vous préférez dans les commentaires finaux,,4.00,Produits Locaux,http://marchelocal.ch/wp-content/uploads/2023/10/Toutes-sortes-de-courges.png,kg
+7,7,Courgette,0,1kg,,5.50,Produits Locaux,http://marchelocal.ch/wp-content/uploads/2023/10/Courgette.jpg,kg
+8,8,Concombre,0,pièce,,2.50,Produits Locaux,http://marchelocal.ch/wp-content/uploads/2023/10/concombre.jpeg,unité
+9,9,Raisin rouge,0,1kg,,6.50,Produits Locaux,http://marchelocal.ch/wp-content/uploads/2023/10/concombre.jpeg,kg
+10,10,Figues,0,pièce,,1.00,Produits Locaux,http://marchelocal.ch/wp-content/uploads/2023/10/Figues.jpg,unité
+11,11,Doucette,1,100 g,,3.20,Produits Locaux,http://marchelocal.ch/wp-content/uploads/2023/10/doucette.jpg,gr
+12,12,Coings,1,1kg,,3.50,Produits Locaux,http://marchelocal.ch/wp-content/uploads/2023/10/coing.jpg,kg
 13,13,Ciboulette,1,bouquet,,0.50,Aromatiques Locaux,http://marchelocal.ch/wp-content/uploads/2023/10/bouquets-aromatiques-2.jpg,unité
 14,14,Persil,1,bouquet,,1.00,Aromatiques Locaux,http://marchelocal.ch/wp-content/uploads/2023/10/bouquets-aromatiques-2.jpg,unité
 15,15,Origan,1,bouquet,,1.00,Aromatiques Locaux,http://marchelocal.ch/wp-content/uploads/2023/10/bouquets-aromatiques-2.jpg,unité
@@ -45,14 +45,14 @@ Position,ID,Name,Published,Description,Sale price,Regular price,Categories,Image
 44,44,Chou rouge,1,1kg,,5.00,Produits suisses de régions voisines,http://marchelocal.ch/wp-content/uploads/2023/10/Chou-rouge.jpg,kg
 45,45,"Poires Conférences, William, Guillot (selon saison)",1,1kg,,4.00,Produits suisses de régions voisines,http://marchelocal.ch/wp-content/uploads/2023/10/Poires-Conferences-William-Guillot.jpg,kg
 46,46,"Pommes Gala, Boscop, Gravenstein, etc (selon la saison)",1,1kg,,4.00,Produits suisses de régions voisines,http://marchelocal.ch/wp-content/uploads/2023/10/Pommes-Gala-Boscop-Gravenstein.png,kg
-47,47,Raisin chasselat,1,1kg,,9.00,Produits suisses de régions voisines,http://marchelocal.ch/wp-content/uploads/2023/10/Raisin-chasselat.jpg,kg
+47,47,Raisin chasselat,0,1kg,,9.00,Produits suisses de régions voisines,http://marchelocal.ch/wp-content/uploads/2023/10/Raisin-chasselat.jpg,kg
 48,48,Pâte feuilletée maison au beurre de laiterie,1,600 gr en congélation dans sachet isotherme. Prévoir la réception rapidement si la pâte doit être gardée congelée,,12.00,Artisanaux,http://marchelocal.ch/wp-content/uploads/2023/10/pate-feuilletee-recette.jpg,unité
 49,49,Pâte feuilletée maison au beurre de laiterie,1,350 gr en congélation dans sachet isotherme. Prévoir la réception rapidement si la pâte doit être gardée congelée,,7.00,Artisanaux,http://marchelocal.ch/wp-content/uploads/2023/10/pate-feuilletee-recette.jpg,unité
 50,50,Quiches aux légumes: tartelette,1,Tartelette,,4.00,Artisanaux,http://marchelocal.ch/wp-content/uploads/2023/10/Quice-aux-legumes.jpg,unité
-51,51,Quiches aux légumes: taille moyenne 4 portions,1,Taille: moyenne 4 portions,,14.00,Artisanaux,http://marchelocal.ch/wp-content/uploads/2023/10/Quice-aux-legumes.jpg,portion
+51,51,Quiches aux légumes: taille moyenne 4 portions,1,Taille: moyenne 4 portions,,14.00,Artisanaux,http://marchelocal.ch/wp-content/uploads/2023/10/Quice-aux-legumes.jpg,unité
 52,52,Quiches aux légumes: taille grande de 28cm,1,Taille: grande de 28cm,,25.00,Artisanaux,http://marchelocal.ch/wp-content/uploads/2023/10/Quice-aux-legumes.jpg,unité
 53,53,Taillé aux greubons,1,pièce,,2.00,Artisanaux,http://marchelocal.ch/wp-content/uploads/2023/10/Tgreubons.jpg,unité
-54,54,Mini taillé aux greubons,1,mini taillés pour apéros | la botte,,2.00,Artisanaux,http://marchelocal.ch/wp-content/uploads/2023/10/Tgreubons.jpg,botte
+54,54,Mini taillé aux greubons,1,mini taillés pour apéros | sachet env.400gr,,2.00,Artisanaux,http://marchelocal.ch/wp-content/uploads/2023/10/Tgreubons.jpg,botte
 55,55,Bricelets sucrés maison,1,paquet,,8.00,Artisanaux,http://marchelocal.ch/wp-content/uploads/2023/10/Bricelets-sucres-et-sales-maison-scaled.jpg,paquet
 56,56,Bricelets salés maison,1,paquet,,8.00,Artisanaux,http://marchelocal.ch/wp-content/uploads/2023/10/Bricelets-sucres-et-sales-maison-rustico.jpg,paquet
 57,57,Confiture: tomates vertes,1,"Au gingembre, vanillé, au citron, nature. Choisir la saveur dans les commentaires finaux",,7.00,Artisanaux,http://marchelocal.ch/wp-content/uploads/2023/10/confiture-maison-general.jpg,unité
@@ -71,7 +71,7 @@ Position,ID,Name,Published,Description,Sale price,Regular price,Categories,Image
 70,70,"Miel de Morrens: colza, fleurs et forêt",1,Indiquer l'arôme que vous avez choisi dans les commentaires finaux,,14.00,Artisanaux,http://marchelocal.ch/wp-content/uploads/2018/06/organic-honey.jpg,unité
 71,71,Jus de pommes bio (Cugy) cubi de 5 litres,1,5 l,,16.00,Artisanaux,http://marchelocal.ch/wp-content/uploads/2023/10/jus-de-pommes.jpg,unité
 72,72,Bananes bio,1,1kg,,3.50,Produits importés pour ce que nous n'avons pas ici,http://marchelocal.ch/wp-content/uploads/2023/10/Bananes-Bio.jpg,kg
-73,73,Mangues bio,1,pièce,,3.50,Produits importés pour ce que nous n'avons pas ici,http://marchelocal.ch/wp-content/uploads/2023/10/Mangues-bio.jpg,pièce
+73,73,Mangues bio,0,pièce,,3.50,Produits importés pour ce que nous n'avons pas ici,http://marchelocal.ch/wp-content/uploads/2023/10/Mangues-bio.jpg,pièce
 74,74,Avocats (Peru),1,Peru | pièce,,2.50,Produits importés pour ce que nous n'avons pas ici,http://marchelocal.ch/wp-content/uploads/2023/10/Avocates.jpg,pièce
 75,75,Dattes (Turquie),1,Turquie | 100 gr,,1.50,Produits importés pour ce que nous n'avons pas ici,http://marchelocal.ch/wp-content/uploads/2023/10/Dattes.jpg,pièce
 76,76,Huile d'olive grecque,1,"(import direct) | 0,25 litre",,8.00,Produits importés pour ce que nous n'avons pas ici,http://marchelocal.ch/wp-content/uploads/2023/10/Huile-dolive-grecque-fundo.jpg,unité
