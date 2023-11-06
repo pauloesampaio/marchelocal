@@ -71,11 +71,12 @@ try:
                 st.markdown(f"### Total panier")
                 quantities_df = pd.DataFrame(quantities.values(), index=quantities.keys(), columns=["Quantité"])
                 quantities_df = quantities_df.loc[quantities_df["Quantité"]>0, :]
-                quantities_df = quantities_df.merge(published_products.set_index("ID")[["Name", "Regular price"]], left_index=True, right_index=True)
-                quantities_df = quantities_df.rename(columns={"Name": "Produit", "Regular price": "Prix"})
+                quantities_df = quantities_df.merge(published_products.set_index("ID")[["Name", "Regular price", "Mesure"]], left_index=True, right_index=True)
+                quantities_df = quantities_df.rename(columns={"Name": "Produit", "Regular price": "Prix", "Mesure": "Mesure"})
+                quantities_df.loc[quantities_df["Mesure"]=="gr", "Quantité"] = quantities_df.loc[quantities_df["Mesure"]=="gr", "Quantité"]/100
                 quantities_df["Total"] = quantities_df["Prix"] * quantities_df["Quantité"]
                 quantities_df = quantities_df[["Produit", "Prix", "Quantité", "Total"]]
-                st.dataframe(quantities_df.reset_index(drop=True).style.format(subset=["Prix","Total"], formatter="{:.2f}"), use_container_width=True)
+                st.dataframe(quantities_df.reset_index(drop=True).style.format(subset=["Prix","Quantité","Total"], formatter="{:.2f}"), use_container_width=True)
                 order_dict = quantities_df.to_dict(orient="records")
 
             with st.container():
