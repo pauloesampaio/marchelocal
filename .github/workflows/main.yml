@@ -1,7 +1,21 @@
-- name: Link GitHub Issue and Pull Request with Trello Card
-  # You may pin to the exact commit or the version.
-  # uses: jessicazu/trello-github-actions@0f5d885c5628b5d10b4de41b62edc2d5aa50f5ea
-  uses: jessicazu/trello-github-actions@v1.0
-  with:
-    # Action to do
-    trello-action: create_card_when_issue_opened
+name: Create trello card when issue opened 
+
+on: 
+  issues: # Issue
+    types: [opened, reopened]
+
+jobs:
+  create_trello_card_job: 
+    runs-on: ubuntu-latest 
+    name: Create Trello Card 
+    steps: 
+    - name: Call trello-github-actions 
+      id: call-trello-github-actions 
+      uses: jessicazu/trello-github-actions@v1.0 
+      with: 
+        trello-action: create_card_when_issue_opened
+      env: 
+        TRELLO_API_KEY: ${{ secrets.TRELLO_API_KEY }}
+        TRELLO_API_TOKEN: ${{ secrets.TRELLO_API_TOKEN }}
+        TRELLO_BOARD_ID: ${{ secrets.TRELLO_BOARD_ID }}
+        TRELLO_LIST_ID: ${{ secrets.TRELLO_TO_DO_LIST_ID }} 
