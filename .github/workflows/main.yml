@@ -1,0 +1,7 @@
+- name: Link GitHub Issue and Pull Request with Trello Card
+  # You may pin to the exact commit or the version.
+  # uses: jessicazu/trello-github-actions@0f5d885c5628b5d10b4de41b62edc2d5aa50f5ea
+  uses: jessicazu/trello-github-actions@v1.0
+  with:
+    # Action to do
+    trello-action: create_card_when_issue_opened
