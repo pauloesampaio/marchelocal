@@ -4,6 +4,7 @@ pandas
 pydeck
 streamlit
 firebase-admin==6.2.0
+tabulate
 streamlit-extras
 google-cloud-firestore
 st_card_component-0.0.1-py3-none-any.whl
