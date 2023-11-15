@@ -55,7 +55,7 @@ with st.form("panier"):
 
     if submitted:
         timestamp = datetime.datetime.now()
-        save_document_in_db(timestamp, order_df, client_dict, delivery_dict)
+        #save_document_in_db(timestamp, order_df, client_dict, delivery_dict)
         send_email_to_farmer(timestamp, order_df, client_dict, delivery_dict)
         st.balloons()
         switch_page("success")
